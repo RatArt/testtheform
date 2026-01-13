@@ -16,7 +16,7 @@ body:
     id: sdk_version
     attributes:
       label: SDK version
-      description: Output of `pip list` or `npm list` (or at least the e2b package version)
+      description: Can be found in `pip list` or `npm list`
       placeholder: e.g. e2b==1.2.3
     validations:
       required: true
@@ -25,7 +25,7 @@ body:
     id: timestamp
     attributes:
       label: Timestamp of the issue
-      description: When did the error occur? (include timezone if possible)
+      description: When did the error occur? (include timezone please)
       placeholder: e.g. 2026-01-12 14:32 UTC
     validations:
       required: true
@@ -42,7 +42,7 @@ body:
       label: Frequency
       options:
         - One-time occurrence
-        - Happens intermittently
+        - Happens sometimes
         - Happens every time
     validations:
       required: true
