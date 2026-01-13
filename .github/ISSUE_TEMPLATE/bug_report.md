@@ -1,62 +1,48 @@
 ---
-name: Bug report
+name: 🐞 Bug report
 about: Report a bug or unexpected behavior
-title: "[Bug]: "
-labels: bug
+title: "[BUG] <title>"
+labels: Bug, Needs Triage
+assignees: ""
 ---
 
-## Environment & Details
+<!--
+Note: Please search to see if an issue already exists for the bug you encountered.
+-->
 
-- **Sandbox ID or Build ID**  
-  (from `sbx.sandbox_id` or console output)
+### Sandbox ID or Build ID
+<!-- Output of `sbx.sandbox_id` or the ID printed in the console during the build -->
 
-- **SDK version**  
-  (from `pip list` or `npm list`, or just the `e2b` version)
+### SDK version
+<!-- Output of `pip list` or `npm list` (or at least the e2b package version) -->
 
-- **Timestamp of the issue**  
-  (include timezone if possible)
+### Timestamp of the issue
+<!-- When did the error occur? Include timezone if possible (e.g. 2026-01-12 14:32 UTC) -->
 
-- **When did this start happening?**
+### When did this start happening?
+<!-- e.g. Today / Yesterday / After upgrading SDK -->
 
-- **Frequency**
-  - [ ] One-time occurrence  
-  - [ ] Happens intermittently  
-  - [ ] Happens every time
+### Frequency
+<!-- One-time occurrence / intermittent / every time -->
 
-- **Operating system running your code**  
-  (not the sandbox OS, e.g. macOS, Windows, Linux)
+### Operating system (host)
+<!-- OS used to run your code (not the sandbox OS). e.g. macOS 14, Windows 11, Ubuntu 22.04 -->
 
-- **Screenshots**  
-  (if applicable, drag and drop here)
+### Bug description
+<!-- A clear and concise description of what you're experiencing -->
 
----
+### Expected behavior
+<!-- A clear and concise description of what you expected to happen -->
 
-## Bug Description
+### Steps to reproduce
+<!--
+1. ...
+2. ...
+3. ...
+-->
 
-A clear and concise description of the issue.
+### Screenshots
+<!-- If applicable, drag and drop screenshots here -->
 
----
-
-## Steps to Reproduce
-
-1. Go to `...`
-2. Run `...`
-3. See error
-
----
-
-## Expected Behavior
-
-What did you expect to happen?
-
----
-
-## Actual Behavior
-
-What actually happened?
-
----
-
-## Additional Context
-
-Logs, error messages, screenshots, or any other relevant information.
+### Additional context
+<!-- Logs, error messages, links, or anything else that helps us debug -->
